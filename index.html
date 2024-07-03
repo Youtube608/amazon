@@ -1,94 +1,107 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
-<head>
-  <title>hello my first code</title>
-</head>
-<body>
-  <h1>WEBSITE</h1>
-  <P1>this my first <b>website</b> I am making a <b>website</b></P1>
-  <br>
-  <br>
-  <a href="https://www.google.com/">Google</a>
-  <br>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK83qJbXA9s1jPVVYFaY3iEnAojjmR3-s1ChuNmvZsIAeROMx9h6YonDc&s=10">
-  <b>NOTEBOOK</b>
-  <br>
-  <br>
-      <I>NOTEBOOK</I>
-  <br>
-  <br>
-  <u>NOTEBOOK</u>
-  <br>
-  <br>
-  <big><b>its a great notebook</b></big>
-  <small>available on Google</small>
-  <hr>
-  <header><h1>My portfolio</h1></header>
-  <main>
-    <section><b><big>Education</big>: </b></section>
-    <section><b><big>Experience</big>: learning</b></section>
-    <article></article>
-    <aside>
-    </aside>
-  </main>
-  
-  <a href="https://www.minecraft.net/en-us" target="_main"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLwxUTaAfExuA2wgdtYXRDb1jQG2YcAiVt7Q&usqp=CAU" height="200" width="200" ></a>
-  <hr>
-  <ol>
-    <li><b>apple</b></li>
-    <ul>
-      <li>Colour : Red</li>
-      <li>Season : winter</li>
-    </ul>
-    <li><b>banana</b></li>
-    <li><b>mango</b></li>
-    
-  </ol>
-  
-</body>
-<hr>
-<table>
-  <thead>
-  <caption>Student data</captionthea
-  <tr>
-    <th colspan="2">
-      INFORMATION</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>ankush</td>
-    <td>433</td>
-    <tbody></tbody>
-    <td>rajesh</td>
-    <td>343</td>
-  </tr>
-  </tbody>
-</table>
-<h1>SIGN UP</h1>
-<form action="/action.php">
-  <input type="username" placeholder="username">
-  <br>
-  <br>
-    <input type="password" placeholder="password">
-  <br>
-  <br>
-  <h1>Choose your class</h1>
-  <input type="radio" value="class viii" name="class" id="101"> class VIII
-  <br>
-  <br>
-  <input type="radio" value="class xi" name="class" id="102"> class XI
-  <br>
-  <br>
-  <h1>Choose your fav subject</h1>
-  <input type="checkbox" value="math" name="math">Math
-  <br>
-  <br>
-  <input type="checkbox" value="science" name="math">Science
-  <br>
-  <br>
-  <input type="checkbox" value="chemistry" name="math">Chemistry
-  <br>
-  <br>
-  <input type="checkbox" value="physics" name="math">Physics
-  </form>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo">
+          <div class="logo"></div>
+          <div class="nav-add1">
+            Delivered to
+            <div class="nav-add2">
+              <i class="fa-solid fa-location-dot"></i> India
+            </div>
+          </div>
+        </div>
+        <div class="nav-search">
+          <select class="select">
+            <option>All</option>
+          </select>
+          <input class="input" type="text" placeholder="search something">
+          <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+        <div class="nav-sign-up">
+          <div class="account-list">
+            <p><span>hello sign in
+            <br>
+            <b>Account & list</b></span></p>
+          </div>
+          <div class="nav-orders">
+            <p>
+              returns 
+              <br>
+             <b> & orders</b>
+            </p>
+          </div>
+        </div>
+        <div class="nav-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="cart-text"><span>Cart</span></p>
+        </div>
+      </div>
+      <!--navbar end-->
+     
+      <div class="panel">
+        <div class="panel-icon">
+          <i class="fa-solid fa-bars"></i>
+          <p class="all"><b>ALL</b></p>
+          <div class="panel-text">
+            <p class="today">Today deals</p>
+           <p>customer service</p>
+           
+            <p>Gift card</p>
+            <p>Sell</p>
+            <div class="panel-deals">
+              <p><b>Shop deals in Electronics</b></p>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      <!--hero section-->
+      
+      <div class="herosection">
+        <div class="hero-text">
+          <p>You are on amazon.com. You can also shop on Amazon India with fast local delivery.<a> Click here to go to amazon.in</a></p>
+        </div>
+        
+      </div>
+      
+      <div class="boxes">
+        <div class="box">
+          <h2 class="img-text">
+            Cloth & accessories
+          </h2>
+          <div class="image-container">
+            <img src="clothe.image.jpg" alt="Clothes and accessories">
+          </div>
+          <p class="img-text"><a>see more</a></p>
+        </div>
+        <div class="box">
+          <h2 class="img-text">
+            Laptop & mobiles
+          </h2>
+          <div class="image-container">
+            <img src="2image.jpg" alt="Laptop and mobiles">
+          </div>
+          <p class="img-text">see more</p>
+        </div>
+        <div class="box">
+          <h2 class="img-text">
+            Laptop & more
+          </h2>
+          <div class="image-container">
+            <img src="7image.jpg" alt="Laptop and more">
+          </div>
+          <p class="img-text">see more</p>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
