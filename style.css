@@ -1,0 +1,179 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background: #0f1111;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: white;
+}
+
+.logo {
+  background-image: url('amazon.img');
+  height: 60px;
+  width: 100px;
+  background-size: cover;
+}
+
+.nav-add1, .nav-add2, .account-list, .nav-orders, .cart-text {
+  color: white;
+}
+
+.nav-add1 {
+  margin-left: 15px;
+}
+
+.nav-add2 {
+  margin-left: 10px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  flex-grow: 2;
+}
+
+.search-icon {
+  background-color: #febd69;
+  padding: 5px;
+}
+
+.search-icon i {
+  color: #232f3e;
+}
+
+.select, .input {
+  padding: 5px;
+}
+
+.input {
+  width: 220px;
+}
+
+.nav-sign-up {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  flex-grow: 1;
+}
+
+.account-list {
+  margin-right: 30px;
+}
+
+.nav-orders {
+  margin-left: 30px;
+}
+
+.nav-cart {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+/* Panel styles */
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.panel-icon {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.panel-icon i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.panel-text {
+  display: flex;
+  gap: 25px;
+}
+
+.panel-deals {
+  margin-left: 100px;
+}
+
+.today {
+  margin-left: 13px;
+}
+
+/* Hero section styles */
+.herosection {
+  background-image: url('herosection.jpg');
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  height: 45px;
+  width: 90%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+}
+
+.box {
+  height: 420px;
+  width: 350px;
+  background-color: white;
+  margin: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e9e7e6;
+  height: 800px;
+}
+
+.image-container {
+  height: 300px;
+  margin: px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: ;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  width: 280px;
+  display: block;
+}
+
+.img-text{
+  margin-left: 20px;
+}
+
