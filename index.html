@@ -1,107 +1,24 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <title>Amazon</title>
-  </head>
-  <body>
-    <header>
-      <div class="navbar">
-        <div class="nav-logo">
-          <div class="logo"></div>
-          <div class="nav-add1">
-            Delivered to
-            <div class="nav-add2">
-              <i class="fa-solid fa-location-dot"></i> India
-            </div>
-          </div>
-        </div>
-        <div class="nav-search">
-          <select class="select">
-            <option>All</option>
-          </select>
-          <input class="input" type="text" placeholder="search something">
-          <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-        </div>
-        <div class="nav-sign-up">
-          <div class="account-list">
-            <p><span>hello sign in
-            <br>
-            <b>Account & list</b></span></p>
-          </div>
-          <div class="nav-orders">
-            <p>
-              returns 
-              <br>
-             <b> & orders</b>
-            </p>
-          </div>
-        </div>
-        <div class="nav-cart">
-          <i class="fa-solid fa-cart-shopping"></i>
-          <p class="cart-text"><span>Cart</span></p>
-        </div>
-      </div>
-      <!--navbar end-->
-     
-      <div class="panel">
-        <div class="panel-icon">
-          <i class="fa-solid fa-bars"></i>
-          <p class="all"><b>ALL</b></p>
-          <div class="panel-text">
-            <p class="today">Today deals</p>
-           <p>customer service</p>
-           
-            <p>Gift card</p>
-            <p>Sell</p>
-            <div class="panel-deals">
-              <p><b>Shop deals in Electronics</b></p>
-            </div>
-            
-          </div>
-          
-        </div>
-        
-      </div>
-      <!--hero section-->
-      
-      <div class="herosection">
-        <div class="hero-text">
-          <p>You are on amazon.com. You can also shop on Amazon India with fast local delivery.<a> Click here to go to amazon.in</a></p>
-        </div>
-        
-      </div>
-      
-      <div class="boxes">
-        <div class="box">
-          <h2 class="img-text">
-            Cloth & accessories
-          </h2>
-          <div class="image-container">
-            <img src="clothe.image.jpg" alt="Clothes and accessories">
-          </div>
-          <p class="img-text"><a>see more</a></p>
-        </div>
-        <div class="box">
-          <h2 class="img-text">
-            Laptop & mobiles
-          </h2>
-          <div class="image-container">
-            <img src="2image.jpg" alt="Laptop and mobiles">
-          </div>
-          <p class="img-text">see more</p>
-        </div>
-        <div class="box">
-          <h2 class="img-text">
-            Laptop & more
-          </h2>
-          <div class="image-container">
-            <img src="7image.jpg" alt="Laptop and more">
-          </div>
-          <p class="img-text">see more</p>
-        </div>
-      </div>
-    </header>
-  </body>
+<head></head>
+<body>
+
+<div id="hello" style="font-size:24px;cursor:pointer;">Hello World</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const e = document.getElementById("hello"), t = ["red", "green", "blue", "yellow", "skyblue", "pink", "orange"];
+        let n = 0, o;
+        function i() {
+            e.style.color = t[n], n = (n + 1) % t.length
+        }
+        e.addEventListener("mouseover", function() {
+            o = setInterval(i, 200)
+        }), e.addEventListener("mouseout", function() {
+            clearInterval(o), e.style.color = "black"
+        })
+    });
+</script>
+
+</body>
 </html>
